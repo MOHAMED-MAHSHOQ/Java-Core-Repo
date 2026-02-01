@@ -1,4 +1,4 @@
-package src.Constructors_Stuffs;
+package src.Constructors_Static_Use;
 
 public class Box {
     private int l;//memory allocated for instance variable only when object created
@@ -16,9 +16,9 @@ public class Box {
         this.h=-1;
         count+=1;
     }
-    Box(int side){
+    Box(int side){//ClassName()-> constructor if u pass object itself like  classname(classname placeholder)-> copy constructor eg)Box(Box b)
         this.l = this.b = this.h = side;
-        count+=1;
+        count+=1;//you can access count because it static
     }
 
     Box(int l, int b , int h){
@@ -33,5 +33,9 @@ public class Box {
     }
     public int perimeter(){
         return l+b+h;
+    }
+    static void display(){
+//        this.l=20;//not possible because static dont depend on obj but 'l ' depends on object how u access in simple [non static stuffs depends on obj not can be accessed in static which is independent of object]
+        System.out.println("The Count Is :   "+ count);
     }
 }
