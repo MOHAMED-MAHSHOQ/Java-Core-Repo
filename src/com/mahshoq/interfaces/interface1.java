@@ -1,4 +1,4 @@
-package src.Interfaces;
+package com.mahshoq.interfaces;
 
 public interface interface1 {
     //no instance in interface

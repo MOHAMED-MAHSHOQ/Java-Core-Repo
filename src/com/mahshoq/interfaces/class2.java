@@ -1,4 +1,4 @@
-package src.Interfaces;
+package com.mahshoq.interfaces;
 
 public class class2 implements interface1 {
 

@@ -1,4 +1,8 @@
-package com.mahshoq.EqualsOveride;
+package com.mahshoq.equalsOveride;
 
-public class Manager {
+public class Managerr extends Employeess{
+
+    Managerr(String name, int salary) {
+        super(name, salary);
+    }
 }

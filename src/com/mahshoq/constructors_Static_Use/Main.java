@@ -1,4 +1,4 @@
-package src.Constructors_Static_Use;
+package com.mahshoq.constructors_Static_Use;
 
 public class Main {
     public static void main(String[] args) {

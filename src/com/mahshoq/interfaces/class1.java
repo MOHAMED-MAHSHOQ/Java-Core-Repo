@@ -1,4 +1,4 @@
-package src.Interfaces;
+package com.mahshoq.interfaces;
 
 public abstract class class1 implements interface1 {
     @Override

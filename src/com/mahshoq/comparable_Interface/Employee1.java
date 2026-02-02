@@ -1,4 +1,4 @@
-package src.Comparable_Interface;
+package com.mahshoq.comparable_Interface;
 
 public class Employee1 extends EmployeeAbstract{
     int explevel;

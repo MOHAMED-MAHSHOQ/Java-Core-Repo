@@ -1,4 +1,4 @@
-package src.Comparable_Interface;
+package com.mahshoq.comparable_Interface;
 
 import java.util.Arrays;
 

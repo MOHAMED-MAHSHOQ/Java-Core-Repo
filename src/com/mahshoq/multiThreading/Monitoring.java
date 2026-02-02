@@ -1,4 +1,5 @@
 package com.mahshoq.multiThreading;
 
-public interface Monitoring {
+public interface Monitoring extends Runnable{
+    void run();
 }

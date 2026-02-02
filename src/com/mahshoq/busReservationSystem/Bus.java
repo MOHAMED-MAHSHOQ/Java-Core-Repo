@@ -1,4 +1,4 @@
-package com.mahshoq;
+package com.mahshoq.busReservationSystem;
 
 public class Bus {
     private int busNo;

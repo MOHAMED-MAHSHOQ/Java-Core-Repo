@@ -1,4 +1,4 @@
-package com.mahshoq;
+package com.mahshoq.busReservationSystem;
 
 import java.util.ArrayList;
 import java.util.Scanner;

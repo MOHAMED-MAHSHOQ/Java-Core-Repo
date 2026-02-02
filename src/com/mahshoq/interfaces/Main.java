@@ -1,4 +1,4 @@
-package src.Interfaces;
+package com.mahshoq.interfaces;
 
 public class Main {
     public static void main(String[] args) {

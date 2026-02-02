@@ -1,4 +1,4 @@
-package src.Comparable_Interface;
+package com.mahshoq.comparable_Interface;
 
 public abstract class EmployeeAbstract implements Comparable<EmployeeAbstract> {
     int employee_id;

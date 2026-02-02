@@ -1,4 +1,4 @@
-package src.VariableLengthArgs;
+package com.mahshoq.variableLengthArgs;
 
 public class Min {
     static int min(String str,int... val)//---> variable length int... if you have string thn (string c,int... val)
